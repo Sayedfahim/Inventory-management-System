@@ -1,0 +1,328 @@
+*,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],figure,blockquote,dl,dd{margin:0}html{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}article>*+*{margin-top:1em}input,button,textarea,select{font:inherit}img:not([alt]){filter:blur(10px)}@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
+
+body#loginBody{
+	background: url('../Images/login-background.png')no-repeat center center;
+background-size: cover;
+font-family: arial;
+}
+body{
+	font-family: arial;
+}
+div.loginHeader{
+	text-align: center;
+}
+div.loginHeader{
+	margin-bottom: 60px;
+}
+div.loginHeader h1{
+	font-size: 100px;
+	font-weight: bold;
+	color:#9400D3 ;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+div.loginHeader p{
+	color:#7FFF00;
+	background: rgba(0,0,0,.5);
+	font-size:50px;
+	margin: 0px;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	width: 950px;
+	margin: 0 auto;
+	display: inline-block;
+}
+div.loginHeader p:after{
+	content:'';
+	display: block;
+	height: 5px;
+	background: #E9967A;
+	width: 100%;
+	margin: 0 auto;
+}
+div.loginBody form{
+	margin: 0 auto;
+	width: 550px;
+	background: rgba(0,0,0,.5);
+	padding: 50px;
+	border: 2px solid #E9967A;
+	border-radius: 8px;
+}
+div.loginInputsContainer{
+	margin-top: 30px;
+}
+div.loginInputsContainer label{
+	display: block;
+	text-transform: uppercase;
+	fornt-size:20px;
+	font-weight: bold;
+	color: #fff;
+}
+div.loginInputsContainer input{
+	height: 30px;
+    width: 100%;
+    border: 2px solid #E9967A;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+div.loginButtonContainer{
+	margin-top: 40px;
+	text-align: center;
+}
+div.loginButtonContainer button{
+font-size: 20px;
+padding: 10px 40px;
+background: #E9967A;
+border: none;
+color: #fff;
+}
+
+
+div.header{
+	width: 100%;
+padding: 10px 0px;
+	background:#E9967A; 
+	text-align: right;
+}
+div.header a{
+	font-size: 20px;
+	color: #fff;
+	border: 2px solid#fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+div.header a:hover{
+	background: #A9A9A9;
+}
+div.banner{
+	background: url('../Images/banner.jpg')no-repeat center center;
+background-size: cover;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+div.homepageContainer{
+	width: 100%;
+	max-width: 900px;
+	/*height: 40vh;*/
+	margin: 0 auto;
+}
+div.bannerHader h1{
+	font-size: 100px;
+	color: #E9967A;
+	line-height: 100%;
+}
+div.bannerHader p{
+	font-size: 40px;
+	color: #E9967A;
+	text-transform: uppercase;
+line-height: 100%;
+}
+p.bannerTagline{
+	margin-top: 15px;
+	font-size: 20px;
+	color: #F0FFFF;
+}
+div.bannerIcons{
+	margin-top: 100px;
+}
+div.bannerIcons a{
+	font-size: 22px;
+	margin-left: 30px;
+	padding: 7px 15px;
+	background: rgba(0,0,0,.5);
+	color: #F0FFFF;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+div.bannerIcons a:first-child{
+margin-left: 0px;
+}
+div.bannerIcons a:hover{
+	color: #fff;
+	font-size: 30px;
+	background:#E9967A; 
+	transition: .5s all;
+}
+
+div.homepageFeatures{
+	display: flex;
+	flex-direction: row;
+}
+div.homepageFeature{
+	padding: 10px 20px;
+	text-align: center;
+}
+div.homepageFeature span.featureIcon{
+	height: 80px;
+	width: 80px;
+	display: inline-block;
+	font-size: 50px;
+background: #E9967A;
+color: #fff;
+padding-top: 5px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+div.homepageFeature h3.featureTitle{
+	margin-bottom: 20px;
+}
+div.homepageFeature p.featureDescription{
+	color:#696969; 
+}
+div.homepageNotified{
+	display: flex;
+	flex-direction: row;
+	background: #FFFACD;
+	padding: 40px 0px;
+	text-align: center;
+
+}
+
+div.homepageNotified h3{
+margin-bottom: 10px;
+}
+div.homepageNotified p{
+	color: #696969;
+	line-height: 150%
+	margin-bottom:20px;
+
+}
+div.homepageContainer button{
+	background: #E9967A;
+}
+
+div.socials {
+	text-align: center;
+	padding: 60px 0px 30px 0px;
+}
+p.socialText{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #A9A9A9;
+}
+div.socialIconsContainer a{
+	font-size: 25px;
+	height: 25px;
+	font-weight: 25px;
+	display: inline-block;
+	background: #d4d4d4;
+    padding:20px;
+    color: #A9A9A9;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    border-radius: 60%
+    }
+    div.socialIconsContainer a:hover{
+    	background:#E9967A; 
+    	    }
+
+
+    	    /* Dashboard Style */
+
+ #dashboardMaincontainer{
+ 	display: flex;
+ 	flex-direction: row;
+ }	    
+ div.dashboard_sidebar{
+ 	width: 20%;
+ 	background:#696969; 
+ 	height: 100vh
+ }
+  div.dashboard_content_container{
+ 	width: 80%;
+ 	background: #F5F5DC;
+ }
+ h3.dashboard_logo{
+ 	color: #E9967A;
+ 	font-size: 80px;
+ 	text-align: center;
+
+ }
+ div.dashboard_sidebar_user{
+ 	vertical-align: center;
+ 	position: relative;
+ 	
+ 	border: 1px solid #fff;
+ }
+ div.dashboard_sidebar_user img{
+ 	width: 100px;
+ 	display: inline-block;
+ 	border-radius: 30%;
+ 	border: 2px solid #E9967A;
+ 	margin-right:5px;
+ 	vertical-align: middle;
+
+
+ }
+ div.dashboard_sidebar_user span{
+ 	position: relative;
+
+ 	top: 20%;
+ 	font-size: 25px;
+ 	text-transform: uppercase;
+ 	color: #fff;
+ 	display: inline-block;
+}
+ul.dashboard_menu_lists{
+	
+	margin-top: 20px;
+}
+ul.dashboard_menu_lists li{
+padding: 15px 15px ;
+
+text-transform: uppercase;
+
+}
+ul.dashboard_menu_lists li a{
+text-decoration: none;
+color:#fff;
+display: black;
+font-size: 20px;
+}
+ul.dashboard_menu_lists li.menuActive{
+	background: #E9967A;
+	color: #fff;
+}
+ul.dashboard_menu_lists li:hover{
+	background: #E9967A;
+	color: #fff;
+	transition: 0.3s all;
+}
+div.dashboard_topnav{
+	background: #fff;
+	padding: 20px;
+
+}
+div.dashboard_topnav{
+	color: #A9A9A9;
+	font-size:18px;
+	text-decoration: none;
+
+}
+a#logoutbtn{
+	float: right;
+}
+div.dashboard_content{
+	padding: 50px 10px 10px 10px;
+}
+div.dashboard_content_main{
+	background: #fff;
+	min-height: 800px;
+	height: 100%;
+	}
+
+div#errorMessage{
+background: #fff;
+text-align: center;
+color: red;
+font-size: 20px;
+padding: 11px;
+
+	}
