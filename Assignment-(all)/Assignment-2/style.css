@@ -1,0 +1,12 @@
+#fortuneShow {
+    font-size: 35px;
+    font-style: italic bold;
+    color:black;
+    background-color: gray;
+    padding: 50px;
+    width: 700px;
+    height: 15px;
+    border: 2px solid black;
+    text-align: center;
+    
+}

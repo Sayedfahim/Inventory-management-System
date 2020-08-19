@@ -1,0 +1,35 @@
+#sec1{
+  text-align: center;
+   padding: 30px;
+	background-color:  peru !important  ; 
+		
+}
+#sec2{
+	text-align: center;
+	table-layout: center;
+	padding: 30px;
+	background-color: #AEF795
+     
+}
+
+#sec3{
+    text-align: center;
+    padding: 30px;
+	background-color: #F9E984;
+
+	
+}
+#sec4{
+     text-align: center;
+      padding: 10px;
+	background-color: #e3f2fd!important;
+	
+}
+
+
+#sec5{
+     text-align: center;
+      padding: 10px;
+	background-color: rgb(45, 155, 170); 
+
+}

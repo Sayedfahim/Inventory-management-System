@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quizStyle.css">
+</head>
+<body style="text-align: center; margin-left: 400px;margin-top: 200px;background-color: aqua;">
+  
+  <div class="flex">
+    <div class="field">Score</div>
+    <h1 id="score" class="field">0</h1>
+  </div>
+  <div class="flex">
+    <div class="field">Question</div>
+    <h3 id="question" class="field"></h3>
+  </div>
+  <div class="flex">
+    <div class="field">Answer A</div>
+    <button id="answerA" onclick="answerA_clicked()"></button>
+  </div>
+  <div class="flex">
+    <div class="field">Answer B</div>
+    <button id="answerB" onclick="answerB_clicked()"></button>
+  </div>
+  <div class="flex">
+    <div class="field">Answer C</div>
+    <button id="answerC" onclick="answerC_clicked()"></button>
+  </div>
+ 
+</body>
+<script src="quiz.js"></script>
+</html>

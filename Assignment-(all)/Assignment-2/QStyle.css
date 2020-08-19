@@ -1,0 +1,21 @@
+.flex {
+  display: flex;
+}
+
+.field {
+  min-width: 300px;
+  min-height: 40px;
+  margin: 15px;
+}
+
+button {
+  height: 50px;
+  width: 300px;
+  outline: none;
+  background:lightgreen;
+  border: navajowhite solid 2px;
+}
+
+button:active {
+  background:khaki;
+}
